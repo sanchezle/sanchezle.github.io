@@ -1,0 +1,30 @@
+
+
+h1{
+    color:white;
+    background-color: #;
+}
+
+body{
+    background-color: #141E30;
+}
+
+*{
+    text-align: left;
+    font-family: Helvetica;
+}
+
+p{
+    text-align: left;
+    color:white;
+    font-weight: bold;
+
+}
+
+h2{
+    color:darkcyan
+}
+
+a{
+    color:darkgray
+}
