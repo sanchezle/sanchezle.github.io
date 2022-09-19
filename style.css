@@ -19,7 +19,9 @@ p{
     text-align: left;
     color:white;
     font-weight: bold;
-    border: 1px solid blue;
+    border: 2px inset grey;
+    min-width: 400px;
+    max-width: 500px;
 }
 
 h2{
