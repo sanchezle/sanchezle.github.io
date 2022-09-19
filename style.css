@@ -10,6 +10,7 @@ body{
 }
 
 *{
+    box-sizing: border-box;
     text-align: left;
     font-family: Helvetica;
 }
@@ -18,7 +19,7 @@ p{
     text-align: left;
     color:white;
     font-weight: bold;
-
+    border: 1px solid blue;
 }
 
 h2{
@@ -28,3 +29,10 @@ h2{
 a{
     color:darkgray
 }
+
+img{
+    border-radius: 4px;
+}
+
+
+    
