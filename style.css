@@ -19,9 +19,11 @@ p{
     text-align: left;
     color:white;
     font-weight: bold;
-    border: 2px inset grey;
+    border: 2px none grey;
     min-width: 400px;
     max-width: 1000px;
+    min-height: 600px;
+    max-height: 1000px;
 }
 
 h2{
@@ -36,5 +38,7 @@ a{
     border-radius: 4px;
 }
 
+projects{
 
+}
     
