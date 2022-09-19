@@ -12,6 +12,9 @@ body{
     box-sizing: border-box;
     text-align: left;
     font-family: Helvetica;
+    min-width: 400;
+    max-width: 1000;
+
 }
 
 p{
@@ -24,8 +27,7 @@ p{
 }
 
 h2{
-    color:white;
-    background-color:darkcyan;
+    color:darkcyan;
     font-weight: bold;
 }
 
