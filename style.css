@@ -25,18 +25,19 @@ p{
 }
 
 h2{
-    color:darkcyan
+    color:darkcyan;
 }
 
 a{
-    color:darkgray
+    color:darkgray;
 }
 
 #foto{
     border-radius: 4px;
+    border: 1px dotted grey;
 }
 
-projects{
-
+#projects{
+      font-weight: bold;
 }
     
