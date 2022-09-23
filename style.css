@@ -49,9 +49,11 @@ nav{
     background-color: darkcyan;
 }
 
-nav ul li{
-    border: 1px solid white;
+.navitem{
     position: relative;
     display: inline-block;
+    color: white;
+    font-weight: bold;
     width: 100px;
+    border: 1px solid white;
 }
