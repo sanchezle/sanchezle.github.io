@@ -36,7 +36,7 @@ a{
 }
 
 #foto{
-    border-radius: 4px;
+    height: 500px;
     border: 1px dotted grey;
 }
 
@@ -44,4 +44,14 @@ a{
       color:white;
       font-weight: bold;
 }
-    
+
+nav{
+    background-color: darkcyan;
+}
+
+nav ul li{
+    border: 1px solid white;
+    position: relative;
+    display: inline-block;
+    width: 100px;
+}
