@@ -1,5 +1,5 @@
 const boton = getElementById('boton');
-const parrafo = getElementById('post');
+const parrafo = getElementById('message');
 
 
 //function where the post is created
