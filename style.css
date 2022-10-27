@@ -56,3 +56,9 @@ nav{
     width: 100px;
     border: 1px solid white;
 }
+
+#postlabel{
+    position: relative;
+    color:aliceblue
+
+}
