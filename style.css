@@ -48,6 +48,7 @@ nav{
 }
 
 .navitem{
+    overflow: hidden;
     position: fixed;
     top: 0;
     background-color: cyan;
