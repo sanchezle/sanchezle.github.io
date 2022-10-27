@@ -12,8 +12,6 @@ body{
     box-sizing: border-box;
     text-align: left;
     font-family: Helvetica;
-
-
 }
 
 
@@ -51,7 +49,7 @@ a{
 }
 
 .nav{
-    background-color:darkcyan;
+    background-color:rgb(14, 0, 139);
     color: #141E30;
     list-style: none;
     text-align: center;
