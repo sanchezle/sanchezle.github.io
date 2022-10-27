@@ -50,6 +50,7 @@ nav{
 .navitem{
     position: fixed;
     top: 0;
+    background-color: cyan;
     display: inline-block;
     color: white;
     font-weight: bold;
