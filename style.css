@@ -52,7 +52,6 @@ nav{
     position: fixed;
     top: 0;
     background-color: cyan;
-    display: inline-block;
     color: white;
     font-weight: bold;
     width: 100%;
@@ -62,6 +61,16 @@ nav{
 
 #postlabel{
     position: relative;
-    color:aliceblue
+    color:aliceblue;
+    
+
+}
+
+.navitem a{
+    float:left;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 
 }
