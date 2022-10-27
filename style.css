@@ -65,6 +65,7 @@ a{
 .nav > li {
     display: inline-block;
     padding: 20px 2px;
+    margin: 0;
 }
 
 .nav > li > a {
