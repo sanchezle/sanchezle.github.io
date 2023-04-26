@@ -1,0 +1,39 @@
+
+body{
+}
+p {
+    color: black;
+}
+
+.quotes{
+    font-weight: 700;
+    font-style: helvetica;
+    font-size: 25px;
+}
+
+.pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    right: 100%
+}
+
+
+#war{
+    color: grey;
+    border-color: black;
+    border-syle: double;
+}
+#SenecaPic{
+    border-radius: 8px;
+
+}
+#MarcoPic{
+    border-radius: 8px;
+}
+
+#EpitectusPic{
+    border-radius: 8px;
+
+}

@@ -1,56 +1,103 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
     <head>
-        <meta name="viewport" content="initial-scale=1, width=device-width">
-         <script src="sanchezle/sanchezle.github.io/contro.js"  async></script>
-        <link href="style.css" rel="stylesheet">
-        <title>Luis Sánchez site</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>LUIS</title>
+        <script src ="index.js"></script>
     </head>
     <body>
-      <header>
-          <ul class="nav">
-            <li class="navitem"><a href="#projects"><strong>Projects</strong></a></li>
-            <li  class="navitem"><a href="#about"><strong>About</strong></a></li>
-          </ul>
+      <!-- Navbar from Bootstrap -->
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">H O M E</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="bowie.html">B O W I E</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="philosophy.html">P H I L O S O P H Y</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="test.html">Luis Test</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+          <!-- Carousel from butstramp -->
+          <!-- needs to fix size -->
+          <div id = "carousel1" class="carousel slide" data-ride ="carousel" >
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="pictures/IMG_20230219_151113_522.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="pictures/IMG-20230203-WA0029.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="pictures/IMG-20230326-WA0025.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pictures/A-Marco-aurelio.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+        </div>
+        <div>
+          <p>
+            Greetings,
 
-    </header>
-    <div id="about">
-      <img src="foto linkeding 3 esta.jpg" id="foto"><br>
-      <h1>Luis Sánch    e            z</h1>
-      <h2>Welcome to my website!</h2>
-      <p>Hello, World! I am Luis Sánchez, I am  35 years old and I am from Caracas, Venezuela. I have a degree in Political Science by the<a href="https://en.wikipedia.org/wiki/Central_University_of_Venezuela" target="_blank"> UCV</a>(2012),
-        However since I graduated I  started my own journey to define my career based purely on my curiosity and my desire to be useful using knowledge as leverage
-          to fulfil that aim. I am currently settled in Barcelona Spain, pursuing my path of learning to code especially front-end stack languages, at the moment, 
-          even though, I have some experience with python, SQL, and command line, since I took several courses in <a href="https://www.codecademy.com/learn" target="_blank">Codeacademy</a> and other platforms. 
-          I am currently taking the front-end path on Codeacademy and taking the <a href="https://bit.ly/3xzLyoZ" target="_blank">CS50 course of Harvard and Edx</a>. 
-          Thank you for readding and please, feel free to review my code and give me your feedback, thank you in advance. 
-          Kind regards.
-          Luis</p><br>
-    </div>
-    <div>
-        <label id="postlabel" for="message" >Leave a message</label><br>
-        <textarea rows="10" cols="30" id="menssage" name="message" type="submit"></textarea><br>
-        <button id="boton">post</button>
-      </form>
-    </div>
-    <div id="projects"> 
-          <label id="projectstitle"><h1>Projects</h1></label>
-          <ul>
-            <li><h2><a href="https://scratch.mit.edu/projects/729722338/" target="_blank">check my game project using scratch for CS50 2022 first week</a></h2></li>
-          </ul>
-    </div>
-  
-    <footer>
-          <h2>You can check my social media on the following links</h2><br>
-          <ul>
-            <li><a href="https://github.com/sanchezle" target="_blank">github</a></li>
-            <li><a href="https://www.linkedin.com/in/luis-eduardo-s%C3%A1nchez-pacheco-5b0a8bb0/" target="_blank">Linkedin</a></li>
-            <li><a href="https://twitter.com/ElLuis21" target="_blank">Twitter</a></li>
-            <li><a href="https://twitter.com/luistradinges" target="_blank">Twitter Two</a></li>
-          </ul>
-    </footer>
- 
+            Allow me to introduce Luis Sánchez, a 35-year-old individual originating from Caracas, Venezuela. Luis holds a degree in Political Science from the esteemed <a href="https://en.wikipedia.org/wiki/Central_University_of_Venezuela" target="_blank">Central University of Venezuela</a> (2012). Upon graduating, he embarked on a self-driven journey to shape his career based on his curiosity and a desire to contribute meaningfully to society by leveraging knowledge.
+            
+            Currently residing in Barcelona, Spain, Luis is diligently working to expand his skillset in coding, with a particular emphasis on front-end stack languages. He has already acquired experience in Python, SQL, and command line, having completed several courses on <a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a> and other platforms. Presently, Luis is pursuing the front-end path on Codecademy and enrolled in the esteemed <a href="https://bit.ly/3xzLyoZ" target="_blank">CS50 course from Harvard and Edx</a>.
+            
+            Luis kindly invites you to review his code and provide your valuable feedback. He expresses his gratitude in advance for your time and consideration.
+            
+            Sincerely,
 
-</body>
- 
+            Luis
+          </p>
+        </div>
+    </body>
+
 </html>
