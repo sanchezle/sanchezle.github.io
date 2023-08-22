@@ -1,16 +1,16 @@
 
-const domContainer = document.querySelector('#like_button_container');
-const root = ReactDOM.createRoot(domContainer);
-
-function LikeButton() {
-    // ... component code here
-    return (
-        <button>Like</button>
-    );
-}
-
+// Create an alias for React.createElement
 const e = React.createElement;
 
-root.render(e(LikeButton));
+// Define the LikeButton component
+function LikeButton() {
+  // ... component logic here
 
+  return e('button', null, 'Like');
+}
+
+// Rendering the LikeButton component to the DOM
+const domContainer = document.querySelector('#like_button_container');
+const root = ReactDOM.createRoot(domContainer);
+root.render(e(LikeButton));
 
