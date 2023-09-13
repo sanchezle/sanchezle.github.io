@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        .container {
+            margin: 2em;
+        }
+        .projects, .contact {
+            background-color: #ffffff;
+            padding: 2em;
+            margin: 1em 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #343a40;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 0.5em 1em;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Aspiring Full-Stack Developer</p>
+    </header>
+
+    <div class="container">
+        <section class="projects">
+            <h2>Projects</h2>
+            <p>Coming soon. You can populate this section with your personal projects.</p>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <p>If you're interested in freelance work, job positions, or checking out my GitHub projects, please get in touch.</p>
+            <button onclick="window.location.href='mailto:your.email@example.com'">Contact Me</button>
+            <button onclick="window.location.href='https://github.com/yourusername'">My GitHub</button>
+        </section>
+    </div>
+
+    <script>
+        // You can add any JavaScript functionalities here
+    </script>
+</body>
+</html>
