@@ -1,8 +1,23 @@
 .about {
-    background-color: #f8f8f8;
+    position: relative;
+    background-color: var(--overlay); /* This might still be useful for older browsers */
     margin: auto;
     padding: 8rem 1rem 0 1rem;
     width: 100%;
+    color: #f8f8f8;
+}
+
+.about:before {
+    content: '';
+    background: url('./images/hero.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: var(--overlay);
+    mix-blend-mode: multiply; /* This blends the overlay with the background image */
 }
 
 .about .container {
@@ -65,14 +80,5 @@
 .resized-image {
     width: 200px; /* or any desired width */
     height: auto; /* maintains aspect ratio */
-  }
-  
-
-
-
-
-
-
-
-
+}
 

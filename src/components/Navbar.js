@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className='header'>
             <nav className='navbar'>
                 <a href='/' className='logo'>
-                    <img src={logo} alt='logo' />
+              
                 </a>
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
@@ -30,11 +30,12 @@ const Navbar = () => {
                         <a href='#about' onClick={closeMenu}>About</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#testimonials' onClick={closeMenu}>Testimonials</a>
+                        <a href='#testimonials' onClick={closeMenu}>projects</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#demo' onClick={closeMenu}>Demo</a>
+                        <a href='#demo' onClick={closeMenu}>Experience</a>
                     </li>
+       
                 </ul>
             </nav>
         </div>
