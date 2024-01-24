@@ -20,7 +20,7 @@ const About = () => {
                     <p> Hi iam Luis welcome to my page, I hope you like it.</p>
                     <button className='button'>Explore More</button>
                 </div>
-                <img src={Luis} alt='Luis Sanchez' style={{width: "600px", height: "auto"}} />
+  
             </div>
         </div>
     )

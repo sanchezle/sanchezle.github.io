@@ -4,10 +4,10 @@ import './Hero.css'
 
 const About = () => {
     return (
-        <div className='about' id='about'>
+        <div className='hero' id='hero'>
             <div className='container'>
 
-                <div className='col-2'>
+                <div className='col-2b'>
                     <h2>LUIS SÁNCHEZ</h2>
 
                 </div>

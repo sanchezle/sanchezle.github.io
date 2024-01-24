@@ -20,7 +20,7 @@
     mix-blend-mode: multiply; /* This blends the overlay with the background image */
 }
 
-.hero.container {
+.hero .container {
     width: 1240px;
     margin: auto;
     display: grid;
@@ -31,7 +31,7 @@
     font-size: 3rem;
 }
 
-.hero .col-2 {
+.hero .col2b {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,11 +39,11 @@
     padding: 3rem;
 }
 
-.hero .col-2 p:first-of-type {
+.hero .col2b p:first-of-type {
     margin: 2rem 0;
 }
 
-.hero .col-2 p:nth-child(4) {
+.hero .col2b p:nth-child(4) {
     font-size: 1.8rem;
     font-style: italic;
     font-weight: 600;
@@ -67,7 +67,7 @@
         width: 90vw;
     }
 
-    .hero .container .col-2 {
+    .hero .container .col2b {
         padding: 0;
     }
 
@@ -81,5 +81,3 @@
     width: 200px; /* or any desired width */
     height: auto; /* maintains aspect ratio */
 }
-
-
