@@ -21,7 +21,6 @@ const Demo = () => {
 
 export default Demo
 
-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
 
 
 
