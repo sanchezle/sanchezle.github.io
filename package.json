@@ -1,7 +1,15 @@
 {
-  "name": "execute-financial",
+  "name": "porfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sanchezle.github.io/sanchezle.github.io",
+  "description": "My personal portfolio website.",   
+  "scripts": {
+
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -24,6 +32,7 @@
       "react-app/jest"
     ]
   },
+  
   "browserslist": {
     "production": [
       ">0.2%",
