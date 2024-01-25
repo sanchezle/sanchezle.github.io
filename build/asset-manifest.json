@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sanchezle.github.io/static/css/main.b2c038a4.chunk.css",
+    "main.js": "/sanchezle.github.io/static/js/main.e4d41f03.chunk.js",
+    "main.js.map": "/sanchezle.github.io/static/js/main.e4d41f03.chunk.js.map",
+    "runtime-main.js": "/sanchezle.github.io/static/js/runtime-main.7a46bb3f.js",
+    "runtime-main.js.map": "/sanchezle.github.io/static/js/runtime-main.7a46bb3f.js.map",
+    "static/js/2.d20626d7.chunk.js": "/sanchezle.github.io/static/js/2.d20626d7.chunk.js",
+    "static/js/2.d20626d7.chunk.js.map": "/sanchezle.github.io/static/js/2.d20626d7.chunk.js.map",
+    "index.html": "/sanchezle.github.io/index.html",
+    "static/css/main.b2c038a4.chunk.css.map": "/sanchezle.github.io/static/css/main.b2c038a4.chunk.css.map",
+    "static/js/2.d20626d7.chunk.js.LICENSE.txt": "/sanchezle.github.io/static/js/2.d20626d7.chunk.js.LICENSE.txt",
+    "static/media/Hero.css": "/sanchezle.github.io/static/media/hero.80c6d0bb.jpg",
+    "static/media/logo.014fa922.png": "/sanchezle.github.io/static/media/logo.014fa922.png",
+    "static/media/luis-sanchez.c3468914.png": "/sanchezle.github.io/static/media/luis-sanchez.c3468914.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a46bb3f.js",
+    "static/js/2.d20626d7.chunk.js",
+    "static/css/main.b2c038a4.chunk.css",
+    "static/js/main.e4d41f03.chunk.js"
+  ]
+}
