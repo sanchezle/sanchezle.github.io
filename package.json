@@ -2,7 +2,7 @@
   "name": "porfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sanchezle.github.io/sanchezle.github.io",
+  "homepage": "https://sanchezle.github.io",
   "description": "My personal portfolio website.",
   "scripts": {
     "start": "react-scripts start",

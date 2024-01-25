@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/sanchezle.github.io/static/css/main.99529b33.css",
-    "main.js": "/sanchezle.github.io/static/js/main.5b927f7e.js",
-    "static/media/luis-sanchez.png": "/sanchezle.github.io/static/media/luis-sanchez.c34689145074deed0079.png",
-    "static/media/hero.jpg": "/sanchezle.github.io/static/media/hero.80c6d0bb8c7d1322efbb.jpg",
-    "static/media/logo.png": "/sanchezle.github.io/static/media/logo.014fa922a0314801d50d.png",
-    "index.html": "/sanchezle.github.io/index.html",
-    "main.99529b33.css.map": "/sanchezle.github.io/static/css/main.99529b33.css.map",
-    "main.5b927f7e.js.map": "/sanchezle.github.io/static/js/main.5b927f7e.js.map"
+    "main.css": "/static/css/main.9568d31e.css",
+    "main.js": "/static/js/main.6571225e.js",
+    "static/media/luis-sanchez.png": "/static/media/luis-sanchez.c34689145074deed0079.png",
+    "static/media/hero.jpg": "/static/media/hero.80c6d0bb8c7d1322efbb.jpg",
+    "static/media/logo.png": "/static/media/logo.014fa922a0314801d50d.png",
+    "index.html": "/index.html",
+    "main.9568d31e.css.map": "/static/css/main.9568d31e.css.map",
+    "main.6571225e.js.map": "/static/js/main.6571225e.js.map"
   },
   "entrypoints": [
-    "static/css/main.99529b33.css",
-    "static/js/main.5b927f7e.js"
+    "static/css/main.9568d31e.css",
+    "static/js/main.6571225e.js"
   ]
 }
