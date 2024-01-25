@@ -5,6 +5,7 @@ import About from './components/About'
 import Testimonials from './components/Testimonials'
 import Demo from './components/Demo'
 import Footer from './components/Footer'
+import Projects from './components/Projects'
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Testimonials />
+      <Projects/>
       <Demo />
       <Footer />
     </div>

@@ -14,7 +14,7 @@ const About = () => {
 
 
 .</p>
-                    <p> Hi iam Luis welcome   test     to my page, I hope you like it.</p>
+                    <p> Hi!! welcome  to my page, I hope you like it.</p>
                     <button className='button'>Explore More</button>
                 </div>
   

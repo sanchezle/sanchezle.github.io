@@ -20,33 +20,43 @@
     margin: 4rem 0;
 }
 
+/* Updated project-card section */
 .projects .project-card {
     border: 1px solid #eee;
     border-radius: 8px;
     box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
-    padding: 1rem;
     cursor: pointer;
     transition: transform 0.3s ease;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    height: 300px; /* Adjust height as needed */
+}
+
+/* New project-card-content section */
+.projects .project-card-content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    width: 100%;
+    padding: 1rem;
 }
 
 .projects .project-card:hover {
     transform: translateY(-5px);
 }
 
-.projects img {
-    width: 100%;
-    border-radius: 8px;
-    object-fit: cover;
-}
-
+/* Updated h3 and p inside project-card */
 .projects .project-card h3 {
     color: var(--primary-color);
     font-size: 1.5rem;
-    margin-top: 1rem;
+    margin-top: 0; /* Adjust as needed */
 }
 
 .projects .project-card p {
-    color: #787878;
+    color: white; /* Adjust color for visibility on new background */
     font-size: 1.1rem;
     margin: 12px 0;
 }

@@ -4,14 +4,14 @@ import myProjects from './myProjects';
 
 const ProjectCard = ({ project }) => {
     return (
-        <div className="project-card" onClick={() => window.location.href = project.url}>
-            <img src={project.image} alt={project.title} />
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
+        <div className="project-card" onClick={() => window.location.href = project.url} style={{ backgroundImage: `url(${project.image})` }}>
+            <div className="project-card-content">
+                <h3>{project.title}</h3>
+                <p>{project.description}</p>
+            </div>
         </div>
     );
 };
-
 const Projects = ({ projects }) => {
     return (
         <div className="projects">
