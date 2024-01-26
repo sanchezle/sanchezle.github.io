@@ -46,6 +46,22 @@
 .hamburger {
     display: none;
 }
+.header .social-icons a i {
+    font-size: 40px; /* Adjust this value to increase or decrease the icon size */
+}
+
+
+.header .social-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem; /* Adjust as needed */
+    font-size: 40px;
+}
+
+.header .social-icons a {
+    color: darkgrey; /* Icon color */
+    margin-right: 10px; /* Space between icons */
+}
 
 
 @media screen and (max-width:940px) {
@@ -57,10 +73,11 @@
     .header .navbar {
         max-width: 100%;
     }
-
     .header .social-icons a i {
-        font-size: 6em; /* Smaller size for mobile devices */
+        font-size: 40px; /* Smaller size for mobile devices */
     }
+
+
     .hamburger {
         display: block;
     }
@@ -87,22 +104,8 @@
     }
 
     .header .navbar img {
-        width: 150px;
+        width: 100px;
     }
-}
-.header .social-icons {
-    display: flex;
-    align-items: center;
-    margin-right: 6rem; /* Adjust as needed */
-}
-
-.header .social-icons a i {
-    font-size: 6vw; /* Adjust the value for desired size */
-}
-
-.header .social-icons a {
-    color: darkgrey; /* Icon color */
-    margin-right: 10px; /* Space between icons */
 }
 
 

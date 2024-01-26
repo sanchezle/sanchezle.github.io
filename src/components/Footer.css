@@ -48,6 +48,7 @@
     display: flex;
     align-items: center;
     margin-right: 1rem; /* Adjust as needed */
+    font-size: 40px;
 }
 
 .footer .social-icons a {

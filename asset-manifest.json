@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.d7a753ab.css",
+    "main.css": "/static/css/main.d41f6aae.css",
     "main.js": "/static/js/main.699aceb2.js",
     "static/media/luis-sanchez.png": "/static/media/luis-sanchez.c34689145074deed0079.png",
     "static/media/bowiegame.png": "/static/media/bowiegame.b23a054df03780482f34.png",
@@ -8,11 +8,11 @@
     "static/media/barcelove.png": "/static/media/barcelove.f39723c3fca43ad4f2c4.png",
     "static/media/logo.png": "/static/media/logo.014fa922a0314801d50d.png",
     "index.html": "/index.html",
-    "main.d7a753ab.css.map": "/static/css/main.d7a753ab.css.map",
+    "main.d41f6aae.css.map": "/static/css/main.d41f6aae.css.map",
     "main.699aceb2.js.map": "/static/js/main.699aceb2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7a753ab.css",
+    "static/css/main.d41f6aae.css",
     "static/js/main.699aceb2.js"
   ]
 }
