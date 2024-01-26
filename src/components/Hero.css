@@ -1,6 +1,6 @@
 .hero {
     position: relative;
-    background-color: var(--overlay); /* This might still be useful for older browsers */
+    background-color: var(--overlay); /* Adjust this if needed */
     margin: auto;
     padding: 8rem 1rem 0 1rem;
     width: 100%;
@@ -9,17 +9,16 @@
 
 .hero:before {
     content: '';
-    background: url('./images/hero.jpg') no-repeat center center/cover;
+    /* background: url('./images/hero.jpg') no-repeat center center/cover; */ /* Commented out */
+    background-color: rgba(0, 0, 0, 0.781); /* Set background to black */
     height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: var(--overlay);
-    mix-blend-mode: multiply; /* This blends the overlay with the background image */
+    /* mix-blend-mode: multiply; */ /* Commented out as it's not needed for a solid color */
 }
-
 .hero .container {
     width: 1240px;
     margin: auto;

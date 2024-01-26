@@ -8,7 +8,7 @@ const About = () => {
             <div className='container'>
 
                 <div className='col-2b'>
-                    <h2>&#123;LUIS SÁNCHEZ &#125;</h2>
+                    <h2>LUIS SÁNCHEZ</h2>
  
                 </div>
                 <img src={Luis} alt='Luis Sanchez' style={{width: "600px", height: "auto"}} />
