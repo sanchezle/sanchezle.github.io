@@ -39,6 +39,18 @@
 }
 
 
+.header .social-icons a i {
+    font-size: 2vw; /* Adjust this value to increase or decrease the icon size */
+}
 
 
+.footer .social-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem; /* Adjust as needed */
+}
 
+.footer .social-icons a {
+    color: darkgrey; /* Icon color */
+    margin-right: 10px; /* Space between icons */
+}

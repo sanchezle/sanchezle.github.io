@@ -14,9 +14,16 @@ const Navbar = () => {
     return (
         <div className='header'>
             <nav className='navbar'>
-                <a href='/' className='logo'>
+                <div className="social-icons">
+                    <a href="https://github.com/sanchezle" target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-github" style={{color: 'darkgrey'}}></i>
+                    </a>
+
+                    <a href="https://wa.me/+34664050394" target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-whatsapp" style={{color: 'darkgrey'}}></i>
+                    </a>
+            </div>
               
-                </a>
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
                         : (<FaBars size={30} style={{ color: '#ffffff' }} />)}

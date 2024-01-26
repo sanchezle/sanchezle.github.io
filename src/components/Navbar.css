@@ -58,6 +58,9 @@
         max-width: 100%;
     }
 
+    .header .social-icons a i {
+        font-size: 6em; /* Smaller size for mobile devices */
+    }
     .hamburger {
         display: block;
     }
@@ -87,10 +90,20 @@
         width: 150px;
     }
 }
+.header .social-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 6rem; /* Adjust as needed */
+}
 
+.header .social-icons a i {
+    font-size: 6vw; /* Adjust the value for desired size */
+}
 
-
-
+.header .social-icons a {
+    color: darkgrey; /* Icon color */
+    margin-right: 10px; /* Space between icons */
+}
 
 
 

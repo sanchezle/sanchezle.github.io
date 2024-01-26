@@ -11,7 +11,7 @@ const About = () => {
                     <h2>LUIS SÁNCHEZ</h2>
  
                 </div>
-                <img src={Luis} alt='Luis Sanchez' style={{width: "600px", height: "auto"}} />
+                <img src={Luis} alt='Luis Sanchez' className='hero-image' />
             </div>
         </div>
     )
