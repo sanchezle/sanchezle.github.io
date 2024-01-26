@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
-import logo from './images/logo.png'
 
 import './Navbar.css'
 
@@ -22,7 +21,7 @@ const Navbar = () => {
                     <a href="https://wa.me/+34664050394" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-whatsapp" style={{color: 'darkgrey'}}></i>
                     </a>
-            </div>
+                </div>
               
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)

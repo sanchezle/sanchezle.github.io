@@ -39,7 +39,7 @@
 }
 
 .header .nav-item a:hover {
-    padding-bottom: 12px;
+    padding-bottom: 2px;
     border-bottom: 3px solid var(--secondary-color);
 }
 
@@ -61,6 +61,9 @@
 .header .social-icons a {
     color: darkgrey; /* Icon color */
     margin-right: 10px; /* Space between icons */
+}
+.header .navbar .social-icons a i {
+    font-size: 40px; /* Use higher specificity */
 }
 
 
