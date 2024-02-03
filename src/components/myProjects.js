@@ -9,7 +9,7 @@ const myProjects = [
         title: 'Bowiegame',
         description: 'Play with my dog for bursting bubbles,  a project I built for Hardvard cs50X. Stack: flask, sql,javascript ',
         image: bowiegameImage,
-        url: 'https://www.bowiegame.es'
+        url: 'https://sanchezle21.pythonanywhere.com/login'
     },
     {
         id: 2,
