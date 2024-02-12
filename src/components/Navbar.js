@@ -21,6 +21,9 @@ const Navbar = () => {
                     <a href="https://wa.me/+34664050394" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-whatsapp" style={{color: 'darkgrey'}}></i>
                     </a>
+                    <a href="mailto:sanchezle21@gmail.com" aria-label="Email" class="email-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
                 </div>
               
                 <div className='hamburger' onClick={handleClick}>
