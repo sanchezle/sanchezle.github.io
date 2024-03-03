@@ -58,6 +58,9 @@
 .hero button {
     margin-top: 1rem;
 }
+p {
+    color: rgb(128, 128, 128);
+}
 
 @media screen and (max-width:940px) {
     .hero .container {

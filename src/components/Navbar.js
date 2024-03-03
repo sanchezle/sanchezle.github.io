@@ -24,6 +24,9 @@ const Navbar = () => {
                     <a href="mailto:sanchezle21@gmail.com" aria-label="Email" class="email-link">
                         <i class="fas fa-envelope"></i>
                     </a>
+                    <a href="https://www.linkedin.com/in/luis-eduardo-s%C3%A1nchez-pacheco/" target="_blank" rel="noopener noreferrer">
+                        <i className="fa-brands fa-linkedin-in" style={{color: 'darkgrey'}}></i>
+                    </a>
                 </div>
               
                 <div className='hamburger' onClick={handleClick}>
@@ -32,17 +35,12 @@ const Navbar = () => {
 
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
-                    <li className='nav-item'>
-                        <a href='/' onClick={closeMenu}>Home</a>
-                    </li>
+
                     <li className='nav-item'>
                         <a href='#about' onClick={closeMenu}>About</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#testimonials' onClick={closeMenu}>projects</a>
-                    </li>
-                    <li className='nav-item'>
-                        <a href='#demo' onClick={closeMenu}>Experience</a>
+                        <a href='#Projects' onClick={closeMenu}>Projects</a>
                     </li>
        
                 </ul>

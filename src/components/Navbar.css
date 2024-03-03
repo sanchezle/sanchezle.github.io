@@ -54,13 +54,13 @@
 .header .social-icons {
     display: flex;
     align-items: center;
-    margin-right: 1rem; /* Adjust as needed */
+    margin-right: 2rem; /* Adjust as needed */
     font-size: 40px;
 }
 
 .header .social-icons a {
     color: darkgrey; /* Icon color */
-    margin-right: 10px; /* Space between icons */
+    margin-right: 20px; /* Space between icons */
 }
 .header .navbar .social-icons a i {
     font-size: 40px; /* Use higher specificity */
