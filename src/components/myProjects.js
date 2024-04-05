@@ -1,6 +1,6 @@
 // projectsData.js
-import bowiegameImage from './images/bowiegame.png';
 import barceloveImage from './images/barcelove.png';
+import bowiegameImage from './images/bowiegame.png';
 import juancitoImage from './images/juancito.png';
 
 const myProjects = [
@@ -9,7 +9,7 @@ const myProjects = [
         title: 'Bowiegame',
         description: 'Play with my dog for bursting bubbles,  a project I built for Hardvard cs50X. Stack: flask, sql,javascript ',
         image: bowiegameImage,
-        url: 'https://sanchezle21.pythonanywhere.com/login'
+        url: 'https://www.bowiegame.es/login'
     },
     {
         id: 2,
