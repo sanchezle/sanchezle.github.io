@@ -4,7 +4,7 @@ import myProjects from './myProjects';
 
 const ProjectCard = ({ project }) => {
     return (
-        <div className="project-card" onClick={() => window.location.href = project.url}>
+        <div className="project-card" onClick={() => window.open= (project.url, '_blank') }>
             <div className="project-card-image">
                 <img src={project.image} alt = "project" id="pic"></img>
             </div>
