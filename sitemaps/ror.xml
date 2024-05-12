@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://sanchezle.github.io/</title>
+  <link>https://sanchezle.github.io/</link>
+
+<item>
+     <link>https://sanchezle.github.io/</link>
+     <title>Luis Sánchez</title>
+     <description>Luis Sánchez</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
