@@ -2,6 +2,7 @@
 import barceloveImage from './images/barcelove.png';
 import bowiegameImage from './images/bowiegame.png';
 import juancitoImage from './images/juancito.png';
+import pinkbudaburger from './images/Pinkbuda_cover.png';
 
 const myProjects = [
     {
@@ -24,7 +25,14 @@ const myProjects = [
         description: 'Spanish learning assistan chatbot powered by OpenAI API. Stack: Node.js, Express.js, React.js ',
         image: juancitoImage,
         url: 'https://zingy-baklava-d1f0ae.netlify.app/'
-    }, 
+    },
+    {
+        id: 4 ,
+        title: 'Pink Buda Burger website',
+        description: 'website for a Pink Buda Burger a burger restaurant franchise locate in Spain. Stack: Node.js, Express.js, React.js ',
+        image: pinkbudaburger,
+        url: 'https://www.pinkbudaburger.com'
+    },  
 
     // ... other projects
 ];
