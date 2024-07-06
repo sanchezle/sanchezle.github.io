@@ -32,7 +32,7 @@ const myProjects = [
         description: 'website for a Pink Buda Burger a burger restaurant franchise locate in Spain. Stack: Node.js, Express.js, React.js ',
         image: pinkbudaburger,
         url: 'https://www.pinkbudaburger.com'
-    },  
+    }  
 
     // ... other projects
 ];
