@@ -4,9 +4,9 @@ import myProjects from './myProjects';
 
 const ProjectCard = ({ project }) => {
     return (
-        <div className="project-card" onClick={() => window.open= (project.url, '_blank') }>
+        <div className="project-card" onClick={() => window.open(project.url, '_blank')}>
             <div className="project-card-image">
-                <img src={project.image} alt = "project" id="pic"></img>
+                <img src={project.image} alt="project" id="pic"></img>
             </div>
             <div className="project-card-content">
                 <h3>{project.title}</h3>
@@ -15,6 +15,7 @@ const ProjectCard = ({ project }) => {
         </div>
     );
 };
+
 const Projects = ({ projects }) => {
     return (
         <div className="projects">
