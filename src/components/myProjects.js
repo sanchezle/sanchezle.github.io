@@ -3,6 +3,7 @@ import barceloveImage from './images/barcelove.png';
 import bowiegameImage from './images/bowiegame.png';
 import juancitoImage from './images/juancito.png';
 import pinkbudaburger from './images/Pinkbuda_cover.png';
+import locculta from './images/locculta.png';
 
 const myProjects = [
     {
@@ -32,6 +33,14 @@ const myProjects = [
         description: 'website for a Pink Buda Burger a burger restaurant franchise locate in Spain. Stack: Node.js, Express.js, React.js ',
         image: pinkbudaburger,
         url: 'https://www.pinkbudaburger.com'
+    },
+    
+    {
+        id: 5 ,
+        title: 'L\'Occulta website',
+        description: 'web app, and website for a cultural worker cooperative L\'Occulta, Arte de todos y para todos, MongoDB,  Express.js,  React.js, Node.js, Redux.js, RTK ',
+        image: locculta,
+        url: 'https://www.locculta.com'
     }  
 
     // ... other projects
